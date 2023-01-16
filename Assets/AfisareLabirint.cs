@@ -233,7 +233,7 @@ public class AfisareLabirint : MonoBehaviour
 
     static int[,] citireLabirint()
     {
-        string[] lines = System.IO.File.ReadAllLines(@"E:\De pe pc vechi\facultate\Facultate\game dev\Labirint\Labirint\Labirint.txt");
+        string[] lines = System.IO.File.ReadAllLines(@"E:\De pe pc vechi\facultate\Facultate\game dev\Labirint\LabirintUnity\Labirint.txt");
         int[,] lab = new int[lines.Length, lines[0].Length];
         int i = 0, j = 0;
         foreach (string line in lines)
